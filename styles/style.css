@@ -108,11 +108,7 @@ body {
 }
 
 .contact-info-phone {
-  display: inline-block;
-  width: fit-content;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .contact-info-email {
@@ -133,7 +129,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/theme/cover.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/theme/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -266,15 +262,15 @@ body {
 
 /* Фоновые изображения для карточек */
 .lots-card--film {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/content/card-lot-01.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/content/card-lot-01.jpg");
 }
 
 .lots-card--book {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/content/card-lot-02.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/content/card-lot-02.jpg");
 }
 
 .lots-card--painting {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/content/card-lot-03.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/content/card-lot-03.jpg");
 }
 
 /* Заголовок карточки */
@@ -378,7 +374,6 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 /* Текстовый контент */
@@ -423,6 +418,7 @@ body {
   color: #333;
 }
 
+/* Адрес в футере */
 .footer-address {
   max-width: 200px;
   font-style: normal;
